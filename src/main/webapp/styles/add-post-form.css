@@ -1,0 +1,33 @@
+/* Ramka, marginesy, wyśrodkowanie i maksymalna szerokość */
+.post-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #BDBDBD;
+    justify-content: center;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+/* Rozmiar czcionki i marginesy między inputami */
+.post-form > * {
+    font-size: 1rem;
+    margin: 16px;
+}
+
+/* Czcionka text area i ustawienie zmiany tylko wysokości */
+.post-form > textarea {
+    font: 300 1rem 'Roboto', sans-serif;
+    height: 5rem;
+    resize: vertical;
+}
+
+/* Obramowanie elementów formularza */
+.post-form > *:not(.discovery-form-title) {
+    padding: 20px;
+    border: 1px solid #BDBDBD;
+}
+
+/* Wyśrodkowanie tytułu formularza */
+.post-form-title {
+    margin: 16px auto;
+}

@@ -1,0 +1,176 @@
+body {
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.logo {
+    color: blue;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+/* efekt przycisku logowania */
+.login-button {
+    background-color: #FF9500;
+    color: white;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    padding: 10px 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: .1em;
+    border-radius: 6px;
+}
+
+.login-button:hover {
+    opacity: 50%;
+}
+
+.prof-button {
+    background-color: #FF3B30;
+    color: black;
+    font-size: 0.8em;
+}
+
+/* max szerokość kolumny 1200px i wyśrodkowanie */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* brak podkreśleń linków */
+a {
+    text-decoration: none;
+}
+
+.left-label {
+    position: absolute;
+    top: 250px;
+    max-width: 100px;
+    left: 20px;
+}
+
+.categories > ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px 20px
+}
+
+.categories > ul > li {
+    flex-grow: 1;
+    padding: 0.5rem;
+    font-weight: 500;
+    border: 2px solid;
+    color: white;
+    opacity: 0.8;
+    border-radius: 6px;
+}
+
+/* po najechaniu na kafelek usuwa przezroczystość */
+.categories > ul > li:hover {
+    opacity: 50%;
+}
+
+/* wyśrodkowanie tekstu na kafelkach i zmiana koloru linków */
+.categories > ul > li > a {
+    color: inherit;
+    display: block;
+    text-align: center;
+}
+
+.categories > ul > li {
+    background-color: blue;
+}
+
+.post {
+    border: 3px solid #007AFF;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 16px;
+    background-color: azure;
+}
+
+.post-header {
+    margin: 10px;
+}
+
+.post-details {
+    color: #757575;
+    font-size: 0.8rem;
+}
+
+.post-content {
+
+}
+
+.post-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.post-link {
+
+}
+
+.post-votes {
+    display: inline;
+    color: #007AFF;
+}
+
+/* przycisk dodania posta*/
+.post-add-button {
+    position:fixed;
+    width:140px;
+    height:80px;
+    bottom:40px;
+    right:100px;
+    background-color: papayawhip;
+    color: darkblue;
+    box-shadow: 4px 4px 6px #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-to-favourite {
+    color: #ec6969;
+}
+
+.comment {
+    border: 1px solid #007AFF;
+    border-radius: 6px;
+    background-color: white;
+}
+.comment-text {
+    color: saddlebrown;
+    font-size: small;
+}
+
+.add-comment {
+    border: 1px;
+}
+
+.comment-form-button {
+    color: white;
+    background-color: #4CAF50;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+}
+
+.comment-form > textarea{
+    border:dotted 2px orange;
+    width: 700px;
+    height: 30px
+}

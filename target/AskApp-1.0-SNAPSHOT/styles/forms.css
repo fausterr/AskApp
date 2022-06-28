@@ -1,0 +1,88 @@
+body {
+    background: #dde6ff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form {
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
+    box-shadow: 4px 4px 6px #999;
+}
+
+/* Reset top and bottom margins from certain elements */
+.form-header,
+.login p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.form-triangle {
+    width: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 12px solid transparent;
+    border-bottom-color: #28d;
+}
+
+.form-header {
+    background: #28d;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.form-container {
+    background: #ebebeb;
+    padding: 12px;
+}
+
+.form p {
+    padding: 12px;
+}
+
+.form input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+.form input[type="password"],
+.form input[type="email"],
+.form input[type="text"] {
+    background: #fff;
+    border-color: #bbb;
+    color: #555;
+}
+
+/* Text fields' focus effect */
+.form input[type="password"]:focus,
+.form input[type="email"]:focus,
+.form input[type="text"]:focus {
+    border-color: #888;
+}
+
+.form input[type="submit"] {
+    background: #28d;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    background: #17c;
+}
+
+/* Buttons' focus effect */
+.form input[type="submit"]:focus {
+    border-color: #05a;
+}
